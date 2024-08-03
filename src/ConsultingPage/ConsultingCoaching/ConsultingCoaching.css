@@ -1,0 +1,32 @@
+.rowstyleconsult{
+    padding-top: 50px;
+}
+
+.pptitleconsult{
+    padding: 20px;
+    padding-top: 80px;
+}
+
+.pptitleconsult h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.pptitleconsult p{
+    font-family: "Roboto";
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+
+
+.descbuttons{
+    background-color: antiquewhite;
+}
+
+.threesectiobackconsult{
+    background-color: #f8f8f8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

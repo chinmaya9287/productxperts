@@ -1,0 +1,77 @@
+.heroimage{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 125vh;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 991px) {
+     .heroimage {
+        height: 110vh;
+     
+    }
+}
+
+.herotitle{
+    padding-top: 200px;
+   
+    text-align: left;
+}
+
+.herotitle h1{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+
+    @media screen and (max-width: 991px) {
+        font-size: 30px;
+      }
+}
+
+.herotitle h4 {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 32px;
+  
+}
+
+.titlebutton button{
+    background-color: #f7c513;
+    height: 56px;
+    width: 200px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .titlebutton button{
+        background-color: #f7c513;
+        height: 56px;
+        width: 100% !important;
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 18px;
+        border-radius: 8px;
+        text-align: center;
+    }
+}
+
+.herosection{
+    height: 100%;
+    width: auto;
+    display: flex;
+}

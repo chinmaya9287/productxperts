@@ -1,0 +1,44 @@
+.coachingafter{
+    background-color: #074EE2;
+    padding-bottom: 50px;
+}
+
+.coachingaftercards h3{
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+.coaching-card{
+    margin: 50px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); */
+    border: none;
+}
+
+.coaching-card h4{
+    font-family: "Montserrat";
+    font-weight:600;
+    color: #212529;
+    padding-bottom: 10px;
+    
+    font-size: 20px;
+
+}
+.coaching-card p{
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+
+
+.coaching-card span > a{
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(2, 130, 221);
+}
+
+

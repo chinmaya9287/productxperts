@@ -1,0 +1,44 @@
+#button-addon1 {
+    color: #ffc371;
+  }
+
+  .list-unstyled li{
+    color: #FFFFFF;
+  }
+  
+  i {
+    color: #0000cc;
+    font-size: 20px;}
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+
+  .footerhere{
+    background-color: #131313;
+  }
+  
+  .copyright{
+  color: #ffffff;
+  }
+
+  .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
+  
+   
+  .display-3{
+    font-family: 'Sanchez', serif;
+  }
+  .text-muted li{
+    color: wheat;
+  }
+  p{
+    font-family: 'Tajawal', sans-serif;
+  }
+  
+  .lead{
+    font-family: 'Sanchez 200', serif;
+  }

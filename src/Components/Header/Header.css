@@ -1,0 +1,61 @@
+.fontstyles{
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #212529;
+}    
+
+.fontstyles button {
+    border-radius: 8px;
+}
+
+/* @media only screen and (max-width: 991px) {
+    .fontstyles button{
+      
+        height: 50px !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+} */
+
+.fontstylesone{
+    font-weight: 500;
+    color: #212529;
+}
+
+.fontstylesone {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .fontstylesone:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #212529;
+  }
+  
+  .headerConthere {
+    padding-left: 110px;
+    padding-right: 110px;
+    height: 64px;
+}
+
+.offcanvas-body{
+    text-align: center;
+    line-height: 40px;
+    padding-top: 160px;
+}
+
+@media only screen and (max-width: 767px){
+    .headerConthere {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        height: 64px !important;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .headerConthere {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        height: 64px !important;
+    }
+}

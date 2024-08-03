@@ -1,0 +1,21 @@
+.blogsection{
+    padding-top: 100px;
+   
+}
+
+.blogtitle{
+    text-align: center;
+}
+
+.blogtitle h3{
+    font-weight: 700;
+}
+
+.cardholder{
+    border: none;
+}
+
+.eachcard{
+    border: none;
+    padding: 10px;
+}

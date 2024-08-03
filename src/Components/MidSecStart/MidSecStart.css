@@ -1,0 +1,56 @@
+.midsec{
+    text-align: center;
+    background-color: #074EE2;
+}
+
+.midsecback{
+    background-color: #074EE2;
+}
+
+.midsec h3{
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "Montserrat";
+    padding-bottom: 10px;
+}
+
+.midsec p{
+    padding-left: 50px;
+    color: #ffffff;
+    line-height: 32px;
+    font-family: "Roboto";
+padding-right: 50px;
+}
+
+.freecall{
+    padding-top: 10px;
+}
+
+
+.freecall button{
+    font-family: "Roboto";
+    font-weight: 500;
+    background-color: #F7C513;
+    color: #212529;
+    height: 56px;
+    font-size: 18px;
+    width: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 991px) {
+    .freecall button{
+        font-family: "Roboto";
+        font-weight: 500;
+        background-color: #F7C513;
+        color: #212529;
+        height: 56px;
+        font-size: 18px;
+        width: 100% !important;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 8px;
+    }
+}

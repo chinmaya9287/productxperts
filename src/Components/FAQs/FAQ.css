@@ -1,0 +1,26 @@
+.faq h3{
+    font-weight: 600;
+    text-align: left;
+    font-family: "Montserrat";
+    padding-bottom: 30px;
+}
+
+.faqstyle h5{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Montserrat";
+}
+
+.faqstyle p{
+    line-height: 32px;
+    font-family: "Roboto";
+    
+}
+
+.faq p{
+    font-size: large;
+}
+
+.accordion-button{
+    --bs-accordion-active-bg: #ffffff;
+}

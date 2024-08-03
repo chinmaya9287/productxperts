@@ -1,0 +1,58 @@
+.midtrain{
+    text-align: center;
+    background-color: #074EE2;
+}
+
+
+.midsecbacktrain{
+    background-color: #074EE2;
+}
+
+.midtrain h3{
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "Montserrat";
+    padding-bottom: 10px;
+}
+
+.midtrain p{
+    padding-left: 50px;
+    color: #ffffff;
+    line-height: 32px;
+    font-family: "Roboto";
+padding-right: 50px;
+}
+
+.freecalltrain{
+    padding-top: 10px;
+}
+
+.freecalltrain button{
+    font-family: "Roboto";
+    font-weight: 500;
+    background-color: #F7C513;
+    color: #212529;
+    height: 56px;
+    font-size: 18px;
+    width: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 8px;
+
+}
+
+@media only screen and (max-width: 991px){
+    .freecalltrain button{
+        font-family: "Roboto";
+        font-weight: 500;
+        background-color: #F7C513;
+        color: #212529;
+        height: 56px;
+        font-size: 18px;
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 8px;
+    
+    }
+}

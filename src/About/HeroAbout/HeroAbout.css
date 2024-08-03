@@ -1,0 +1,43 @@
+.aboutimage{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://images.unsplash.com/photo-1563906267088-b029e7101114?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 88vh;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.abouthero{
+    height: 100%;
+    width: auto;
+    display: flex;
+}
+
+.abouttitle{
+    padding-top: 200px;
+   
+    text-align: center;
+}
+
+.abouttitle h1{
+    color: aliceblue;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+
+    @media screen and (max-width: 991px) {
+      font-size: 30px;
+    }
+}
+
+.abouttitle p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 32px;
+}
