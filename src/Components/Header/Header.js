@@ -37,7 +37,7 @@ const Header = () => {
           <Container fluid className="headerConthere">
             <Navbar.Brand>
               <Link to="/" style={{ textDecoration: 'none', color: 'black' }} onClick={scrollToTop}>
-                <img src={complogo} alt="ProductXperts Logo" style={{ maxHeight: '50px', marginRight: '10px' }} />
+                <img src={complogo} alt="ProductXperts Logo" title='productXperts' style={{ maxHeight: '50px', marginRight: '10px' }} />
               </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} onClick={toggleOffcanvas} />
@@ -77,7 +77,7 @@ const Header = () => {
                 <Link to="/contact">
                   <Button
                     className="fontstyles"
-                    style={{ backgroundColor: '#F7C513', height: '40px', width: '150px' }}
+                    style={{ backgroundColor: '#F7C513', height: '40px', width: '150px', position: 'relative', top:'5px' }}
                     variant="light"
                     onClick={scrollToTop}
                   >

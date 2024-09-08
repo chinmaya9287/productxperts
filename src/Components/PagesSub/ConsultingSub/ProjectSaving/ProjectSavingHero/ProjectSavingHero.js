@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 const ProjectSavingHero = () => {
 
     const scrollToSection = () => {
-        const section = document.getElementById('learnmorehereconsult');
+        const section = document.getElementById('projectsa');
         section.scrollIntoView({ behavior: 'smooth' });
       };
 
@@ -13,7 +13,7 @@ const ProjectSavingHero = () => {
 
   return (
     <>
-    <div className='consultingimage'>
+    <div className='projectSaingHeroimage'>
 
     <div className='container consultinghero'>
   

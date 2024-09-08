@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const PmforFoundersHero = () => {
     const scrollToSection = () => {
-        const section = document.getElementById('learnmorehereconsult');
+        const section = document.getElementById('pmforfounders');
         section.scrollIntoView({ behavior: 'smooth' });
       };
 
@@ -12,7 +12,7 @@ const PmforFoundersHero = () => {
 
   return (
     <>
-    <div className='consultingimage'>
+    <div className='pmforfoundersimage'>
 
     <div className='container consultinghero'>
   
@@ -20,9 +20,9 @@ const PmforFoundersHero = () => {
     <Col xs={12} md={{ span: 6, offset: 6 }}>
 
     <div className='consulttitle'>
-    <h1>CUSTOMER DEVELOPMENT</h1>
+    <h1>1:1 PRODUCT MANAGEMENT COACHING</h1>
 
-    <p>Customer development and research programs designed to find out customer problems and needs.
+    <p>Dedicated 1:1 Product Management coaching designed for startup and early stage founders.
 </p>
     
 

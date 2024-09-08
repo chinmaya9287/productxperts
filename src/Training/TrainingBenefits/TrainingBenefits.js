@@ -15,7 +15,7 @@ const TrainingBenefits = () => {
       <Row className='rowstyletrain'  style={{paddingBottom: '50px'}}>
 
         <Col xs={{ order: 'first' }} md={6}>
-          <Image src='https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' fluid />
+          <Image src='https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='pximage' title='pximage' fluid />
         </Col>
 
         <Col xs={{ order: 'last' }} md={6}>

@@ -4,7 +4,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 const IntroPmMain = () => {
   return (
     <>
-    <div className='threesectiontrain'  style={{paddingTop: '50px'}}>
+    <div className='threesectiontrain'  style={{paddingTop: '50px'}} id='intropm'>
     <div className='trainingaftercards'>
        <h3 style={{ color: '#1e2227'}}>PRODUCT STRATEGY CONSULTANCY SERVICES</h3>
          </div>
@@ -13,7 +13,7 @@ const IntroPmMain = () => {
    <Row className='rowstyletrain'  style={{paddingBottom: '50px'}}>
 
      <Col xs={{ order: 'first' }} md={6}>
-       <Image src='https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' fluid />
+       <Image src='https://images.unsplash.com/photo-1531973576160-7125cd663d86?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='pximage' title='pximage' className='rounded' fluid />
      </Col>
 
      <Col xs={{ order: 'last' }} md={6}>
@@ -28,11 +28,11 @@ const IntroPmMain = () => {
     </Row>
    <Row className='rowstyletrain'  style={{paddingBottom: '50px'}}>
 
-     <Col xs={{ order: 'first' }} md={6}>
-       <Image src='https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' fluid />
+     <Col xs={{ order: 'last' }} md={6}>
+       <Image src='https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='pximage' title='pximage' className='rounded' fluid />
      </Col>
 
-     <Col xs={{ order: 'last' }} md={6}>
+     <Col xs={{ order: 'first' }} md={6}>
      <div className='pptitletrain'>
      <h2>LEARN FROM EXPERIENCED PRODUCT MANAGERS</h2> 
        <p>All of your course content is developed and taught by experienced Product Managers that are still actively working with Product Labs clients (no academicians here). Hence our courses are focused on learning by doing, with real world examples to help set the stage for your Product Management career.

@@ -4,6 +4,11 @@
   margin-bottom: 0px;
 }
 
+.no-controls .carousel-control-prev,
+.no-controls .carousel-control-next {
+  display: none;
+}
+
 .quotesback{
 
     background-color: #D6EBCE;

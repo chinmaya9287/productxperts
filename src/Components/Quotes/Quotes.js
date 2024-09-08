@@ -12,11 +12,14 @@ const Quotes = () => {
   return (
     <>
 
-<Carousel activeIndex={index} onSelect={handleSelect} className='testimonialhere' >
+<Carousel activeIndex={index} onSelect={handleSelect} className='testimonialhere' activeIndex={index}
+      onSelect={handleSelect}
+      className='testimonialhere no-controls'
+      interval={1000} >
 <Carousel.Item>
      <div className='quotesback container' style={{borderRadius: '24px'}}>
      <br />
-      <div id="carousel1" className="carousel slide testimonial-style" data-ride="carousel" data-interval="5000">
+      <div id="carousel1" className="carousel slide testimonial-style" data-ride="carousel" data-interval="2000">
        
         <div className="carousel-inner">
           <div className="item active">
@@ -37,7 +40,7 @@ const Quotes = () => {
     <Carousel.Item>
      <div className='quotesback container' style={{borderRadius: '24px'}}>
      <br />
-      <div id="carousel1" className="carousel slide testimonial-style" data-ride="carousel" data-interval="5000">
+      <div id="carousel1" className="carousel slide testimonial-style" data-ride="carousel" data-interval="2000">
        
         <div className="carousel-inner">
           <div className="item active">
@@ -58,7 +61,7 @@ const Quotes = () => {
     <Carousel.Item>
      <div className='quotesback container' style={{borderRadius: '24px'}}>
      <br />
-      <div id="carousel1" className="carousel slide testimonial-style" data-ride="carousel" data-interval="5000">
+      <div id="carousel1" className="carousel slide testimonial-style" data-ride="carousel" data-interval="2000">
        
         <div className="carousel-inner"  >
           <div className="item active">

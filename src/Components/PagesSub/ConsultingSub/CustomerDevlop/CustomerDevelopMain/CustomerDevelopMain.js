@@ -5,7 +5,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 const CustomerDevelopMain = () => {
   return (
     <>
-    <div className='threesectiontrain'  style={{paddingTop: '50px'}}>
+    <div className='threesectiontrain'  style={{paddingTop: '50px'}} id='customerde'>
     <div className='trainingaftercards'>
        <h3 style={{ color: '#1e2227'}}>WHY CUSTOMER DEVELOPMENT ?</h3>
          </div>
@@ -14,7 +14,7 @@ const CustomerDevelopMain = () => {
    <Row className='rowstyletrain'  style={{paddingBottom: '50px'}}>
 
      <Col xs={{ order: 'first' }} md={6}>
-       <Image src='https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' fluid />
+       <Image src='https://images.unsplash.com/photo-1607703703520-bb638e84caf2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='pximage' title='pximage' className='rounded' fluid />
      </Col>
 
      <Col xs={{ order: 'last' }} md={6}>
@@ -47,11 +47,11 @@ Allow us to help you identify who your customers are, how they behave and what n
     </Row> */}
    <Row className='rowstyletrain'  style={{paddingBottom: '50px'}}>
 
-     <Col xs={{ order: 'first' }} md={6}>
-       <Image src='https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' fluid />
+     <Col xs={{ order: 'last' }} md={6}>
+       <Image src='https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='pximage' title='pximage' className='rounded' fluid />
      </Col>
 
-     <Col xs={{ order: 'last' }} md={6}>
+     <Col xs={{ order: 'first' }} md={6}>
      <div className='pptitletrain'>
      <h2>VALIDATING AND ASSUMPTIONS</h2> 
        <p>Validating your assumptions and testing these with your customers is the cornerstone of customer development. Does your product solve a real problem which is worth solving in the customers’ eyes ? Let us help you find out.

@@ -1,12 +1,12 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
-
+import './IntroPmHero.css'
 
 
 const IntroPmHero = () => {
 
     const scrollToSection = () => {
-        const section = document.getElementById('learnmorehereconsult');
+        const section = document.getElementById('intropm');
         section.scrollIntoView({ behavior: 'smooth' });
       };
 

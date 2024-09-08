@@ -73,7 +73,7 @@ const ThreeSection = () => {
           </div>
         </Col>
         <Col xs={{ order: 'first' }} md={6} className="order-md-2">
-          <Image src={image1} className='rounded' fluid />
+          <Image src={image1} alt='pximage' title='pximage' className='rounded' fluid />
         </Col>
       </Row>
 
@@ -81,7 +81,7 @@ const ThreeSection = () => {
       <Row className='rowstyle'>
 
         <Col xs={{ order: 'first' }} md={6}>
-          <Image src={image2} className='rounded' fluid />
+          <Image src={image2} alt='pximage' title='pximage' className='rounded' fluid />
         </Col>
 
         <Col xs={{ order: 'last' }} md={6}>

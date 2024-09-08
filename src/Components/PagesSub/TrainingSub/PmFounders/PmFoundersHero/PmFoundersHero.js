@@ -1,16 +1,17 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
+import './PmFounderHero.css'
 
 const PmFoundersHero = () => {
 
     const scrollToSection = () => {
-        const section = document.getElementById('learnmorehereconsult');
+        const section = document.getElementById('pmfound');
         section.scrollIntoView({ behavior: 'smooth' });
       };
 
   return (
     <>
-    <div className='consultingimage'>
+    <div className='pmForFoundersimage'>
 
     <div className='container consultinghero'>
   

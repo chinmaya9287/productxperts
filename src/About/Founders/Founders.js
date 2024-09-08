@@ -25,13 +25,13 @@ const Founders = () => {
             </p>
 
            
-             <a href="https://www.linkedin.com/in/beherachinmaya/" target='blank'> <img src={linklogo} style={{height: '25px', }} alt="" /> </a>
+             <a href="https://www.linkedin.com/in/beherachinmaya/" target='blank'> <img src={linklogo} style={{height: '25px', }} alt="founder" /> </a>
             
           </div>
           
         </Col>
         <Col xs={{ order: 'first' }} md={6} className="order-md-2">
-          <Image src={image2} style={{ height: '450px', width: '450px', marginLeft: '150px' }} className='rounded here' fluid />
+          <Image src={image2} alt='founder' title='founder' style={{ height: '450px', width: '450px', marginLeft: '150px' }} className='rounded here' fluid />
         </Col>
       </Row>
 
@@ -43,11 +43,11 @@ const Founders = () => {
             <p>
             With over 11 years of industry experience spanning engineering, product management, and growth strategies, Alimpan brings a wealth of expertise to the table. His diverse industry exposure includes working with B2C products across sectors such as Transportation, Telecommunication, E-commerce, Gaming, and Entertainment. Alimpan excels in navigating new product launches, implementing product-led growth strategies including acquisition, activation, and reactivation initiatives, as well as designing and optimising loyalty programs and customer lifecycle management (CLM) journeys. He boasts a strong proficiency in integrating third-party analytics and marketing platforms, including Clevertap, Moengage, Appsflyer, Branch, and Mixpanel, among others. <br /> Beyond his professional endeavours,Alimpan harbours a passion for football and is an avid enthusiast of real-money gaming.
             </p>
-            <a href="https://www.linkedin.com/in/alimpan-barua-01641623/" target='blank'> <img src={linklogo} style={{height: '25px', }} alt="" /> </a>
+            <a href="https://www.linkedin.com/in/alimpan-barua-01641623/" target='blank'> <img src={linklogo} style={{height: '25px', }} alt="founder" /> </a>
           </div>
         </Col>
         <Col xs={{ order: 'first' }} md={6} className="order-md-2">
-        <Image src={image1} style={{ height: '450px', width: '450px', marginLeft: '150px' }} className='rounded here' fluid />
+        <Image src={image1} style={{ height: '450px', width: '450px', marginLeft: '150px' }} alt='founder' title='founder' className='rounded here' fluid />
         </Col>
       </Row>
 

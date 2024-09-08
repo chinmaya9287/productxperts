@@ -5,6 +5,12 @@ import { Link } from 'react-router-dom';
 import footerlogo from '../../assets/companylogo/white5122.png'
 
 const Footer = () => {
+
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
+
   return (
     <>
       <footer className="bg footerhere">
@@ -29,13 +35,13 @@ const Footer = () => {
             <div className="col-lg-2 col-md-6 mb-4 mb-lg-0">
               <h6 className="text-uppercase font-weight-bold mb-4" style={{color: 'white'}}>CONSULTING</h6>
               <ul className="list-unstyled mb-0">
-              <Link to="./Productstrategy" style={{textDecoration: 'none'}} >
+              <Link to="./Productstrategy" style={{textDecoration: 'none'}} onClick={scrollToTop} >
                 <li className="mb-2"><a href="" className="" style={{textDecoration: 'none', color: 'whitesmoke', fontSize:'13px'}}>PRODUCT STRATEGY</a></li></Link>
 
-                <Link to='./Projectsaving' style={{textDecoration: 'none'}}>
+                <Link to='./Projectsaving' style={{textDecoration: 'none'}}onClick={scrollToTop} >
                 <li className="mb-2"><a href="" className="" style={{textDecoration: 'none', color: 'whitesmoke' , fontSize:'13px'}}>PROJECT SAVING</a></li></Link>
                 
-                <Link to="./Customerdevelopment" style={{textDecoration: 'none'}}>
+                <Link to="./Customerdevelopment" style={{textDecoration: 'none'}} onClick={scrollToTop}>
                 <li className="mb-2"><a href="#" className="" style={{textDecoration: 'none', color: 'whitesmoke' , fontSize:'13px'}}>CUSTOMER DEVELOPMENT</a></li></Link>
               </ul>
             </div>
@@ -44,13 +50,13 @@ const Footer = () => {
               <h6 className="text-uppercase font-weight-bold mb-4" style={{color: 'white'}}>TRAINING</h6>
               <ul className="list-unstyled mb-0">
 
-              <Link to="./IntroductiontoPM" style={{textDecoration: 'none'}}>
+              <Link to="./IntroductiontoPM" style={{textDecoration: 'none'}} onClick={scrollToTop}>
                 <li className="mb-2"><a href="#" className="" style={{textDecoration: 'none', color: 'whitesmoke' , fontSize:'13px'}}>INTRODUCTION TO PM</a></li></Link>
 
-                <Link to="./PMforFounders"  style={{textDecoration: 'none'}}>
+                <Link to="./PMforFounders"  style={{textDecoration: 'none'}} onClick={scrollToTop}>
                 <li className="mb-2"><a href="#" className="" style={{textDecoration: 'none', color: 'whitesmoke' , fontSize:'13px'}}>PM FOR FOUNDERS</a></li></Link>
 
-                <Link to="./AdvancedPM" style={{textDecoration: 'none'}}>
+                <Link to="./AdvancedPM" style={{textDecoration: 'none'}}onClick={scrollToTop} >
                 <li className="mb-2"><a href="#" className="" style={{textDecoration: 'none', color: 'whitesmoke' , fontSize:'13px'}}>ADVANCED PM</a></li></Link>
               </ul>
             </div>
@@ -59,13 +65,13 @@ const Footer = () => {
               <h6 className="text-uppercase font-weight-bold mb-4" style={{color: 'white'}}>COACHING</h6>
               <ul className="list-unstyled mb-0">
 
-              <Link to='/Productmanagementforpm' style={{textDecoration: 'none'}}>
+              <Link to='/Productmanagementforpm' style={{textDecoration: 'none'}} onClick={scrollToTop} >
                 <li className="mb-2"><a href="#" className="" style={{textDecoration: 'none', color: 'whitesmoke' , fontSize:'13px'}}>PRODUCT MANAGEMENT FOR PMs</a></li></Link>
 
-                <Link to='/Productmanagementforfounders' style={{textDecoration: 'none'}}>
+                <Link to='/Productmanagementforfounders' style={{textDecoration: 'none'}} onClick={scrollToTop}>
                 <li className="mb-2"><a href="#" className="" style={{textDecoration: 'none', color: 'whitesmoke' , fontSize:'13px'}}>PRODUCT MANAGEMENT FOR FOUNDERS</a></li></Link>
 
-                <Link to='/Groupcoaching' style={{textDecoration: 'none'}}>
+                <Link to='/Groupcoaching' style={{textDecoration: 'none'}} onClick={scrollToTop}>
                 <li className="mb-2"><a href="#" className="" style={{textDecoration: 'none', color: 'whitesmoke' , fontSize:'13px'}}>GROUP COACHING</a></li></Link>
               </ul>
             </div>

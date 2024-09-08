@@ -7,21 +7,21 @@ import { Container, Row, Col } from 'react-bootstrap';
 const StratHero = () => {
 
   const scrollToSection = () => {
-    const section = document.getElementById('learnmorehereconsult');
+    const section = document.getElementById('stratser');
     section.scrollIntoView({ behavior: 'smooth' });
   };
 
 
   return (
     <>
-    <div className='consultingimage'>
+    <div className='stratHeroimage'>
 
     <div className='container consultinghero'>
   
     <Row>
     <Col xs={12} md={{ span: 6, offset: 6 }}>
 
-    <div className='consulttitle'>
+    <div className='strattitle'>
     <h1>PRODUCT MANAGEMENT STRATEGY</h1>
 
     <p>Product management strategy consulting services for fast growing companies

@@ -5,14 +5,14 @@ import './PmforPmHero.css';
 const PmforPmHero = () => {
 
     const scrollToSection = () => {
-        const section = document.getElementById('learnmorehereconsult');
+        const section = document.getElementById('pmforpm');
         section.scrollIntoView({ behavior: 'smooth' });
       };
 
 
   return (
     <>
-    <div className='consultingimage'>
+    <div className='pmforpmimage'>
 
     <div className='container consultinghero'>
   
@@ -20,9 +20,9 @@ const PmforPmHero = () => {
     <Col xs={12} md={{ span: 6, offset: 6 }}>
 
     <div className='consulttitle'>
-    <h1>CUSTOMER DEVELOPMENT</h1>
+    <h1>1:1 PRODUCT MANAGEMENT COACHING</h1>
 
-    <p>Customer development and research programs designed to find out customer problems and needs.
+    <p>Dedicated 1:1 Product Management coaching designed for aspiring and early career Product Managers.
 </p>
     
 

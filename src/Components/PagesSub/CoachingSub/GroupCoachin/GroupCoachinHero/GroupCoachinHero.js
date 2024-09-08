@@ -5,14 +5,14 @@ import './GroupCoachinHero.css'
 const GroupCoachinHero = () => {
 
     const scrollToSection = () => {
-        const section = document.getElementById('learnmorehereconsult');
+        const section = document.getElementById('groupcoach');
         section.scrollIntoView({ behavior: 'smooth' });
       };
 
 
 return (
     <>
-    <div className='consultingimage'>
+    <div className='groupcoachingimage'>
 
     <div className='container consultinghero'>
   
@@ -20,9 +20,11 @@ return (
     <Col xs={12} md={{ span: 6, offset: 6 }}>
 
     <div className='consulttitle'>
-    <h1>CUSTOMER DEVELOPMENT</h1>
+    <h1>ONLINE, ACCOUNTABLE & COST EFFECTIVE
+GROUP COACHING FOR PRODUCT MANAGEMENT
+</h1>
 
-    <p>Customer development and research programs designed to find out customer problems and needs.
+    <p>Embrace our cost-effective Product Management coaching delivered in a supportive group setting online
 </p>
     
 

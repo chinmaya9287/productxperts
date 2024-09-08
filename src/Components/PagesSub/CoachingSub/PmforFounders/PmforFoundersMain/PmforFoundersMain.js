@@ -1,83 +1,105 @@
 import React from 'react'
 import './PmforFoundersMain.css'
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
+import Brands from '../../../../Brands/Brands';
+import BrandAga from '../../../../BrandAga/BrandAga';
 
 const PmforFoundersMain = () => {
+
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/contact');
+  };
+
+
     return (
         <>
-        <div className='threesectiontrain'  style={{paddingTop: '50px'}}>
+
+        <BrandAga />
+        <div className='threesectiontrain'  style={{paddingTop: '50px'}} id='pmforfounders'>
         <div className='trainingaftercards'>
-           <h3 style={{ color: '#1e2227'}}>WHY CUSTOMER DEVELOPMENT ?</h3>
+           <h3 style={{ color: '#1e2227'}}>BENEFITS OF 1:1 PRODUCT MANAGEMENT COACHING</h3>
              </div>
         <Container>
         
        <Row className='rowstyletrain'  style={{paddingBottom: '50px'}}>
     
          <Col xs={{ order: 'first' }} md={6}>
-           <Image src='https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' fluid />
+           <Image src='https://images.unsplash.com/photo-1555421689-d68471e189f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='pximage' title='pximage' className='rounded'  fluid />
          </Col>
     
          <Col xs={{ order: 'last' }} md={6}>
          <div className='pptitletrain'>
-         <h2>IDENTIFY YOUR AUDIENCE</h2> 
-           <p>Understanding your target audience and their requirements is vital for any business's success.
-    Allow us to help you identify who your customers are, how they behave and what needs they have which need solving.
+         <h2>HARNESS YEARS OF PRODUCT MANAGEMENT EXPERTISE</h2> 
+           <p>Discover the value of 1:1 product coaching and tap into over 15 years of Product Management experience that the Product Labs team offers to you and your business.
     </p>
-          
+    <div className='threebutt'>
+            <button onClick={handleClick} >GET STARTED</button>
+          </div>
            </div>
          
          </Col>
     
         </Row>
-      {/*  <Row className='rowstyletrain'  style={{paddingBottom: '50px'}}>
-    
-         <Col xs={{ order: 'first' }} md={6}>
-           <Image src='https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' fluid />
-         </Col>
+       <Row className='rowstyletrain'  style={{paddingBottom: '50px'}}>
     
          <Col xs={{ order: 'last' }} md={6}>
+           <Image src='https://images.unsplash.com/photo-1553484771-689277e6fa16?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='pximage' title='pximage' className='rounded' fluid />
+         </Col>
+    
+         <Col xs={{ order: 'first' }} md={6}>
          <div className='pptitletrain'>
-         <h2>MANAGE EXISTING PRODUCTS</h2> 
-           <p>Allow us to steer the course of your product's lifecycle, from feature prioritisation to achieving success. Our Product Managers will harmonise the needs of your stakeholders and navigate through technical queries during development. Think of it as scrum managementx10.</p>
-          
+         <h2>MINIMISE RISK WITH EXTERNAL PRODUCT MANAGEMENT PERSPECTIVE</h2> 
+           <p>Safeguard your business from potential risks in product direction and decision-making by mastering the art of Product Management through tailored, one-on-one coaching sessions.</p>
+           <div className='threebutt'>
+            <button onClick={handleClick} >GET STARTED</button>
+          </div>
            </div>
          
          </Col>
     
-        </Row> */}
+        </Row>
        <Row className='rowstyletrain'  style={{paddingBottom: '50px'}}>
     
          <Col xs={{ order: 'first' }} md={6}>
-           <Image src='https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' fluid />
+           <Image src='https://images.unsplash.com/photo-1508643315917-6688bbbb4cb5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='pximage' title='pximage' className='rounded' fluid />
          </Col>
     
          <Col xs={{ order: 'last' }} md={6}>
          <div className='pptitletrain'>
-         <h2>VALIDATING AND ASSUMPTIONS</h2> 
-           <p>Validating your assumptions and testing these with your customers is the cornerstone of customer development. Does your product solve a real problem which is worth solving in the customers’ eyes ? Let us help you find out.
+         <h2>DISCOVER FLEXIBLE, SELF-PACED & ONLINE COACHING</h2> 
+           <p>Dive into our Product Management coaching, tailored to accommodate the fast-paced and time-constrained nature of your journey as a Founder. Crafted with empathy from our own experiences as Founders, our coaching offers complete flexibility in scheduling and delivery methods, empowering you to learn at your own pace and convenience.
     </p>
-          
+    <div className='threebutt'>
+            <button onClick={handleClick} >GET STARTED</button>
+          </div>
            </div>
          
          </Col>
     
         </Row>
-      {/*  <Row className='rowstyletrain'  style={{paddingBottom: '50px'}}>
-    
-         <Col xs={{ order: 'first' }} md={6}>
-           <Image src='https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' fluid />
-         </Col>
+       <Row className='rowstyletrain'  style={{paddingBottom: '50px'}}>
     
          <Col xs={{ order: 'last' }} md={6}>
+           <Image src='https://images.unsplash.com/photo-1616587226960-4a03badbe8bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+           ' alt='pximage' title='pximage' className='rounded' fluid />
+         </Col>
+    
+         <Col xs={{ order: 'first' }} md={6}>
          <div className='pptitletrain'>
-         <h2>HIRING AND BUILDING PRODUCT TEAMS</h2> 
-           <p>We help growing businesses correctly hire,and build product teams. Knowing what skills are needed and when to hire are critical components in a startup’s team development and ultimate success.</p>
-          
+         <h2>PATHWAY TO YOUR FIRST PRODUCT MANAGER HIRE</h2> 
+           <p>Elevate your own skills and expertise in Product Management to defer the costs linked with hiring your initial Product Manager. By honing your capabilities in this area, you not only delay the need for a full-time Product Manager but also ensure a stronger hiring decision when the time comes to onboard a dedicated resource in Product Management.</p>
+           <div className='threebutt'>
+            <button onClick={handleClick} >GET STARTED</button>
+          </div>
            </div>
          
          </Col>
     
-        </Row> */}
+        </Row>
         <br /> <br />
         </Container>
         </div>
